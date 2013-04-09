@@ -25,7 +25,7 @@
 
 		_distance = 0;
 
-		_borderColor = [[NSColor whiteColor] retain];
+        [self setBorderColor:[NSColor whiteColor]];
 		_borderWidth = 2;
 		_cornerRadius = 8;
 
@@ -35,8 +35,7 @@
 		_drawRoundCornerBesideArrow = YES;
 
 		_viewMargin = 2;
-		_backgroundColor = [[NSColor colorWithCalibratedWhite:(CGFloat)0.1 alpha:(CGFloat)0.9] retain];
-//		_backgroundColor = [[NSColor orangeColor] retain];
+        [self setBackgroundColor:[NSColor colorWithCalibratedWhite:(CGFloat)0.1 alpha:(CGFloat)0.9]];
 		_movable = NO;
 		_resizable = NO;
 	}
