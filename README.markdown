@@ -1,10 +1,6 @@
-This purpose of this fork of Stephen Booth's SFBPopovers is to implement a solution that will build on both Cocoa and GNUstep.
-
-
-SFBPopovers
+TPPopovers
 ===========
 
-This framework implements popover windows- windows that, to the user, logically belong to another window are visually
-attached to the parent window.
+A light-weight popover implementation that works on both Cocoa and GNUstep
 
-Forked from https://github.com/sbooth/SFBPopovers
+Inpired by SFBPopover and MAAttachedWindow.
