@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010E7C3317149E450086B37A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A10EBC136A5855009FA237 /* QuartzCore.framework */; };
+		01C753FF170CD0190044BC60 /* TPPopoverWindowFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1032D136844AC009FA237 /* TPPopoverWindowFrame.m */; };
+		01C75400170CD01C0044BC60 /* TPPopoverWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CE12E21367859400CE7985 /* TPPopoverWindow.m */; };
+		01C75401170CD0200044BC60 /* TPPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CE12DD1367857A00CE7985 /* TPPopover.m */; };
+		32A103D51368F37B009FA237 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A103D31368F37B009FA237 /* MainMenu.xib */; };
+		32A103D61368F383009FA237 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CE12CA1367854000CE7985 /* AppKit.framework */; };
+		32A103D71368F384009FA237 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CE12C71367854000CE7985 /* Cocoa.framework */; };
+		32A1041B1368F4D2009FA237 /* TPPopoverTestHarnessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1041A1368F4D2009FA237 /* TPPopoverTestHarnessAppDelegate.m */; };
+		32A1043C1368F58E009FA237 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A1039C1368F2A2009FA237 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014604491714BE7900AD7264 /* TPPopoverTestHarness_GNUmakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = TPPopoverTestHarness_GNUmakefile; sourceTree = "<group>"; };
+		01C75408170CE2A60044BC60 /* GNUmakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = GNUmakefile; sourceTree = "<group>"; };
+		01C75409170CE2A60044BC60 /* BuildForWindows.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = BuildForWindows.sh; sourceTree = "<group>"; };
+		32A1032C136844AC009FA237 /* TPPopoverWindowFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPopoverWindowFrame.h; sourceTree = "<group>"; };
+		32A1032D136844AC009FA237 /* TPPopoverWindowFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPopoverWindowFrame.m; sourceTree = "<group>"; };
+		32A103841368F23D009FA237 /* TPPopoverTestHarness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPPopoverTestHarness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A103861368F23D009FA237 /* TPPopoverTestHarness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPPopoverTestHarness-Info.plist"; sourceTree = "<group>"; };
+		32A1039C1368F2A2009FA237 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32A103D41368F37B009FA237 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32A104191368F4D2009FA237 /* TPPopoverTestHarnessAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPopoverTestHarnessAppDelegate.h; sourceTree = "<group>"; };
+		32A1041A1368F4D2009FA237 /* TPPopoverTestHarnessAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPopoverTestHarnessAppDelegate.m; sourceTree = "<group>"; };
+		32A10EBC136A5855009FA237 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		32CE12C71367854000CE7985 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		32CE12CA1367854000CE7985 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		32CE12CB1367854000CE7985 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		32CE12CC1367854000CE7985 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32CE12CF1367854000CE7985 /* TPPopover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPPopover-Info.plist"; sourceTree = "<group>"; };
+		32CE12D11367854000CE7985 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32CE12D31367854000CE7985 /* TPPopover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPPopover-Prefix.pch"; sourceTree = "<group>"; };
+		32CE12DC1367857A00CE7985 /* TPPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPopover.h; sourceTree = "<group>"; };
+		32CE12DD1367857A00CE7985 /* TPPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPopover.m; sourceTree = "<group>"; };
+		32CE12E11367859400CE7985 /* TPPopoverWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPopoverWindow.h; sourceTree = "<group>"; };
+		32CE12E21367859400CE7985 /* TPPopoverWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPopoverWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A103821368F23D009FA237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010E7C3317149E450086B37A /* QuartzCore.framework in Frameworks */,
+				32A103D61368F383009FA237 /* AppKit.framework in Frameworks */,
+				32A103D71368F384009FA237 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C75406170CE2820044BC60 /* GNUstep Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C75408170CE2A60044BC60 /* GNUmakefile */,
+				01C75409170CE2A60044BC60 /* BuildForWindows.sh */,
+				014604491714BE7900AD7264 /* TPPopoverTestHarness_GNUmakefile */,
+			);
+			name = "GNUstep Files";
+			sourceTree = "<group>";
+		};
+		32A1037D1368F216009FA237 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				32A104191368F4D2009FA237 /* TPPopoverTestHarnessAppDelegate.h */,
+				32A1041A1368F4D2009FA237 /* TPPopoverTestHarnessAppDelegate.m */,
+				32A103D31368F37B009FA237 /* MainMenu.xib */,
+				32A103861368F23D009FA237 /* TPPopoverTestHarness-Info.plist */,
+				32A1039C1368F2A2009FA237 /* main.m */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		32CE12B81367854000CE7985 = {
+			isa = PBXGroup;
+			children = (
+				32CE12CD1367854000CE7985 /* TPPopover */,
+				32A1037D1368F216009FA237 /* Example */,
+				32CE12C61367854000CE7985 /* Frameworks */,
+				32CE12C51367854000CE7985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32CE12C51367854000CE7985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A103841368F23D009FA237 /* TPPopoverTestHarness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32CE12C61367854000CE7985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32CE12C71367854000CE7985 /* Cocoa.framework */,
+				32CE12C91367854000CE7985 /* Other Frameworks */,
+				32A10EBC136A5855009FA237 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32CE12C91367854000CE7985 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32CE12CA1367854000CE7985 /* AppKit.framework */,
+				32CE12CB1367854000CE7985 /* CoreData.framework */,
+				32CE12CC1367854000CE7985 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32CE12CD1367854000CE7985 /* TPPopover */ = {
+			isa = PBXGroup;
+			children = (
+				01C75406170CE2820044BC60 /* GNUstep Files */,
+				32CE12CE1367854000CE7985 /* Supporting Files */,
+				32CE12DC1367857A00CE7985 /* TPPopover.h */,
+				32CE12DD1367857A00CE7985 /* TPPopover.m */,
+				32CE12E11367859400CE7985 /* TPPopoverWindow.h */,
+				32CE12E21367859400CE7985 /* TPPopoverWindow.m */,
+				32A1032C136844AC009FA237 /* TPPopoverWindowFrame.h */,
+				32A1032D136844AC009FA237 /* TPPopoverWindowFrame.m */,
+			);
+			name = TPPopover;
+			sourceTree = "<group>";
+		};
+		32CE12CE1367854000CE7985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32CE12CF1367854000CE7985 /* TPPopover-Info.plist */,
+				32CE12D01367854000CE7985 /* InfoPlist.strings */,
+				32CE12D31367854000CE7985 /* TPPopover-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32A103831368F23D009FA237 /* TPPopoverTestHarness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A103891368F23E009FA237 /* Build configuration list for PBXNativeTarget "TPPopoverTestHarness" */;
+			buildPhases = (
+				32A103801368F23D009FA237 /* Resources */,
+				32A103811368F23D009FA237 /* Sources */,
+				32A103821368F23D009FA237 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPPopoverTestHarness;
+			productName = Example;
+			productReference = 32A103841368F23D009FA237 /* TPPopoverTestHarness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32CE12BA1367854000CE7985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = sbooth.org;
+			};
+			buildConfigurationList = 32CE12BD1367854000CE7985 /* Build configuration list for PBXProject "TPPopover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32CE12B81367854000CE7985;
+			productRefGroup = 32CE12C51367854000CE7985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32A103831368F23D009FA237 /* TPPopoverTestHarness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A103801368F23D009FA237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A103D51368F37B009FA237 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A103811368F23D009FA237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A1041B1368F4D2009FA237 /* TPPopoverTestHarnessAppDelegate.m in Sources */,
+				32A1043C1368F58E009FA237 /* main.m in Sources */,
+				01C75401170CD0200044BC60 /* TPPopover.m in Sources */,
+				01C75400170CD01C0044BC60 /* TPPopoverWindow.m in Sources */,
+				01C753FF170CD0190044BC60 /* TPPopoverWindowFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32A103D31368F37B009FA237 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A103D41368F37B009FA237 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		32CE12D01367854000CE7985 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32CE12D11367854000CE7985 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32A103871368F23E009FA237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TPPopoverTestHarness-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = TPPopoverTestHarness;
+			};
+			name = Debug;
+		};
+		32A103881368F23E009FA237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TPPopoverTestHarness-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = TPPopoverTestHarness;
+			};
+			name = Release;
+		};
+		32CE12D41367854000CE7985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+			};
+			name = Debug;
+		};
+		32CE12D51367854000CE7985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32A103891368F23E009FA237 /* Build configuration list for PBXNativeTarget "TPPopoverTestHarness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A103871368F23E009FA237 /* Debug */,
+				32A103881368F23E009FA237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32CE12BD1367854000CE7985 /* Build configuration list for PBXProject "TPPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32CE12D41367854000CE7985 /* Debug */,
+				32CE12D51367854000CE7985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32CE12BA1367854000CE7985 /* Project object */;
+}
